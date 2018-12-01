@@ -1,5 +1,8 @@
+.container {
+    color: #696969;
+}
 
-
+/* Header Top */
 .logo-sub-heading {
     font-size: 10px;
     color: #e4a5b1;
@@ -19,7 +22,7 @@
 .user-details li a {
     float: left;
     text-decoration: none;
-    color: #696969;
+    /* color: #696969; */
 }
 
 
@@ -33,19 +36,30 @@
     color: #cc003e;
 }
 
-/* .user-details li.active span.user-img img {
-    src: url('../img/user-details-user-active.png');
-} */
-
-
-
-
-
-
-
+/* Header Login */
 .header-login {
 
 }
+
+.login-text {
+    padding: 10px 0 8px 11px;
+    float: left;
+}
+
+.login-form input {
+    margin-left: 13px;
+    border: 1px solid #d8d8d8;
+    padding: 10px 0 8px 11px;
+}
+
+.login-form button {
+    border: none;
+    margin-left: 13px;
+    background: #cc003e;
+    color: #ecd3d8;
+    padding: 10px 18px 8px 11px;
+}
+
 
 .navbar {
 

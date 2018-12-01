@@ -10,8 +10,11 @@
 .header-wrapper {
     width: 68%;
     margin: auto;
+
 }
 
+
+/* Header Top */
 .header-top {
     padding: 25px 0 25px 0;
     background: url("../img/header-top-border.png");
@@ -56,13 +59,25 @@ float: right;
     margin-left: 8px;
 }
 
+/* Header Login */
 .header-login {
-
+    padding: 15px 0 15px 0;
+    background: url("../img/header-top-border.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .login-box {
-    margin: auto;
+  width: 76%;
+  margin: auto;
+
 }
+
+
+
+
+
+
 
 .navbar {
 
