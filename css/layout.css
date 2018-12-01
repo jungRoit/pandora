@@ -1,0 +1,69 @@
+.container {
+    width: 100%;
+    background-image: url("../img/background.png");
+
+}
+.header {
+
+}
+
+.header-wrapper {
+    width: 68%;
+    margin: auto;
+}
+
+.header-top {
+    padding: 25px 0 25px 0;
+    background: url("../img/header-top-border.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.logo {
+   width: 13.78%;
+   float: left;
+   margin-right: 18px;
+}
+
+.logo-sub-heading {
+    float: left;
+}
+
+
+.user-details {
+float: right;
+}
+
+.user-details li {
+    float: left;
+}
+
+.cart-img {
+    width: 16px;
+    float: left;
+    margin-right: 10px;
+}
+
+.user-img {
+    width: 16px;
+    float: left;
+    margin-right: 10px;
+}
+
+.dropdown {
+    width: 16px;
+    float: right;
+    margin-left: 8px;
+}
+
+.header-login {
+
+}
+
+.login-box {
+    margin: auto;
+}
+
+.navbar {
+
+}

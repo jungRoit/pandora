@@ -1,0 +1,52 @@
+
+
+.logo-sub-heading {
+    font-size: 10px;
+    color: #e4a5b1;
+}
+
+
+
+.user-details li {
+    list-style-type: none;
+    padding-left: 15px;
+    padding-right: 16px;
+    background-image: url("../img/user-details-border-right.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.user-details li a {
+    float: left;
+    text-decoration: none;
+    color: #696969;
+}
+
+
+.user-details li:last-child {
+    background: none;
+    padding-right: 0;
+}
+
+
+.user-details li.active a{
+    color: #cc003e;
+}
+
+/* .user-details li.active span.user-img img {
+    src: url('../img/user-details-user-active.png');
+} */
+
+
+
+
+
+
+
+.header-login {
+
+}
+
+.navbar {
+
+}
