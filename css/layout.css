@@ -59,7 +59,9 @@ float: right;
     margin-left: 8px;
 }
 
-/* Header Login */
+
+
+/* Header Login  for header middle part*/
 .header-login {
     padding: 15px 0 15px 0;
     background: url("../img/header-top-border.png");
@@ -68,16 +70,16 @@ float: right;
 }
 
 .login-box {
-  width: 76%;
+  width: 66%;
   margin: auto;
 
 }
 
 
-
-
-
-
+/* Header Navbar for header bottom part */
+.header-navbar {
+    padding: 21px 0 19px 0;
+}
 
 .navbar {
 
