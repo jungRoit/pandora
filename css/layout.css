@@ -203,6 +203,42 @@ float: right;
     border-bottom: 1px dotted #cccccc;
 }
 
+.col3-section {
+    width: 68%;
+    margin: auto;
+    padding: 40px 0 0 0;
+}
+
+.section-left {
+float: left;
+width: 70%;
+}
+
+.blogs {
+    float: left;
+    width: 55%;
+}
+
+.blogs-title {
+    background: url("../img/header-top-border.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.best-seller {
+    width: 45%;
+    float: right;
+}
+
+.section-right {
+    float: right;
+    width: 30%;
+}
+
+.about {
+    float: left;
+    
+}
 
 
 
