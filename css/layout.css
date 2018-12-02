@@ -120,7 +120,7 @@ float: right;
 .intro {
     width: 68%;
     margin: auto;
-    padding: 49px 0 0 0;
+    padding: 45px 0 0 0;
 }
 
 .intro-img {
@@ -150,7 +150,7 @@ float: right;
     margin: auto;
 }
 
-.products-title {
+.content-title {
     background: url("../img/header-top-border.png");
     background-position: bottom;
     background-repeat: no-repeat;
@@ -177,19 +177,33 @@ float: right;
     margin-right: 25px;
 }
 
-.product-item h3{
-    font-size: 12px;
-    font-weight: normal;
-    color: #7d7d7d;
+.special-offer {
+    width: 68%;
+    margin: auto;
 }
 
-.product-item span {
-    color: red;
+.special-offer-content {
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
-.product-item span.sale-price {
-    color: #7d7d7d;
-    font-size: 12px;
-    text-decoration: line-through;
+.offer-box {
+    width: 30%;
+    float: left;
+    text-align: center;
+    color: #d8d8d8;
+    padding: 20px 0 28px 0;
+    margin-right: 25px;
 }
+
+.offer-title {
+    width: 170px;
+    margin: auto;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #cccccc;
+}
+
+
+
+
 
