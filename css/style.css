@@ -19,6 +19,10 @@
     background-repeat: no-repeat;
 }
 
+.user-details li:hover {
+    color: #cc003e;
+}
+
 .user-details li:first-child {
     padding-left: 20px;
     background-image: url("../img/user-details-cart.png"), url("../img/user-details-border-right.png");
@@ -29,7 +33,7 @@
 .user-details li:first-child:hover {
     padding-left: 20px;
     background-image: url("../img/user-details-cart-active.png"), url("../img/user-details-border-right.png");
-
+    
 }
 
 .user-details li a {
@@ -170,11 +174,11 @@
     font-weight: normal;
 }
 
-.products-title h2 {
+.content-title h2 {
     font-weight: normal;
 }
 
-.products-title span {
+.content-title span {
     width: 13%;
     float: right;
     padding-left: 20px;
@@ -205,4 +209,23 @@
     font-size: 12px;
     text-decoration: line-through;
 }
+
+.offer-title {
+    color: white;
+    font-weight: normal;
+    
+}
+
+.offer-box.green {
+    background-image: url("../img/special-offer-green.png");
+}
+
+.offer-box.blue {
+    background-image: url("../img/special-offer-blue.png");
+}
+
+.offer-box.orange {
+    background-image: url("../img/special-offer-orange.png");
+}
+
 
