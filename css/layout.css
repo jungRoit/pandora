@@ -131,7 +131,6 @@ float: right;
 
 .intro-text {
     width: 55%;
-    padding-left: 5%;
     float: right;
 }
 
@@ -143,4 +142,21 @@ float: right;
     padding-left: 8px;
     display: block;
     font-weight: bold;
+}
+
+.products {
+    padding-top: 20px;
+    width: 68%;
+    margin: auto;
+}
+
+.products-title {
+    background: url("../img/header-top-border.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.products-heading {
+    float: left;
+    width: 70%;
 }

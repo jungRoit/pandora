@@ -19,6 +19,19 @@
     background-repeat: no-repeat;
 }
 
+.user-details li:first-child {
+    padding-left: 20px;
+    background-image: url("../img/user-details-cart.png"), url("../img/user-details-border-right.png");
+    background-position: left, right;;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.user-details li:first-child:hover {
+    padding-left: 20px;
+    background-image: url("../img/user-details-cart-active.png"), url("../img/user-details-border-right.png");
+
+}
+
 .user-details li a {
     float: left;
     text-decoration: none;
@@ -27,12 +40,23 @@
 
 
 .user-details li:last-child {
-    background: none;
-    padding-right: 0;
+    padding-left: 20px;
+    background-image: url("../img/user-details-user.png"), url("../img/user-details-dropdown.png");
+    background-position: left, right;;
+    background-repeat: no-repeat, no-repeat;
 }
 
+.user-details li:last-child:hover {
+    background-image: url("../img/user-details-user-active.png"), url("../img/user-details-dropdown-active.png");
+    background-position: left, right;;
+    background-repeat: no-repeat, no-repeat;
+}
 
-.user-details li.active a{
+.user-details li a{
+    color: #696969;
+}
+
+.user-details li a:hover{
     color: #cc003e;
 }
 
@@ -87,6 +111,10 @@
     color: #696969;
 }
 
+.navbar a:hover {
+    color: #cc003e;
+}
+
 .search-box {
     float: right;
 }
@@ -127,11 +155,26 @@
     background-position: right;
 }
 
+.intro-text {
+    text-align: center;
+}
+
 .intro-text h2 {
     color: #e4a5b1;
     font-weight: normal;
 }
 
-.intro-title h2 span {
-    height: 14px;
+.products-title h2 {
+    font-weight: normal;
 }
+
+.products-title span {
+    width: 13%;
+    float: right;
+    padding-left: 20px;
+    background: url("../img/products-viewMore.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
