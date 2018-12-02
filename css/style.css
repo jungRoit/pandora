@@ -100,3 +100,38 @@
     background-repeat: no-repeat;
     background-position: 10px;
 }
+
+
+.slider-text-top {
+    background: #cc003e;
+    color: white;
+}
+
+.slider-text-bottom {
+    background: #cc003e;
+    color: white;
+}
+
+.slider-text-bottom p {
+    text-overflow: ellipsis;
+}
+
+.slider-text-bottom p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    padding-right: 10px;
+    background-image: url("../img/Readmore-plus.png") ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.intro-text h2 {
+    color: #e4a5b1;
+    font-weight: normal;
+}
+
+.intro-title h2 span {
+    height: 14px;
+}
