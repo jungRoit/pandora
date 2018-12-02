@@ -154,9 +154,42 @@ float: right;
     background: url("../img/header-top-border.png");
     background-position: bottom;
     background-repeat: no-repeat;
+    padding: 15px 0 15px 0;
 }
 
 .products-heading {
     float: left;
     width: 70%;
 }
+
+.products-list {
+    margin-top: 34px;
+}
+
+
+.product-item {
+    float: left;
+    text-align: center;
+    width: 185px;
+    background: white;
+    padding: 8px 8px 8px 8px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.product-item h3{
+    font-size: 12px;
+    font-weight: normal;
+    color: #7d7d7d;
+}
+
+.product-item span {
+    color: red;
+}
+
+.product-item span.sale-price {
+    color: #7d7d7d;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+

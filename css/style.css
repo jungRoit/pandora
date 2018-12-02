@@ -103,6 +103,12 @@
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 10px;
+}
+
+.navbar li.more-menu:hover {
+    background: url("../img/navbar-plus-active.png");
+    background-repeat: no-repeat;
+    background-position: right;
 
 }
 
@@ -177,4 +183,26 @@
     background-position: left;
 }
 
+.sale {
+    background: url("../img/product-sale.png");
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+
+.product-item h3{
+    font-size: 12px;
+    font-weight: normal;
+    color: #7d7d7d;
+}
+
+.product-item span {
+    color: red;
+}
+
+.product-item span.sale-price {
+    color: #7d7d7d;
+    font-size: 12px;
+    text-decoration: line-through;
+}
 
