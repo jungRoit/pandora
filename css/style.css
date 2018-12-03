@@ -187,7 +187,9 @@
     background-position: left;
 }
 
-.product-item span.sale {
+
+
+.product-item div.sale {
     background: url("../img/product-sale.png");
     background-repeat: no-repeat;
     z-index: 10;
@@ -216,6 +218,14 @@
     text-decoration: line-through;
 }
 
+.product-details {
+    padding: 5px 0 5px 0;
+}
+
+/* .product-img img {
+    z-index: 5;
+} */
+
 .offer-title {
     color: white;
     font-weight: normal;
@@ -234,4 +244,89 @@
     background-image: url("../img/special-offer-orange.png");
 }
 
+.blog-item-head h3 {
+    font-size: 14px;
+    color: #e4a5b1;
+}
 
+
+.blog-item span {
+    font-size: 14px;
+}
+
+.blog-item-head span.time {
+    background: url("../img/blog-time.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    border-right: 2px dotted #8a8a8a;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.blog-item-head span.comment {
+    background: url("../img/blog-comment.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+.blog-item-body {
+    padding-top: 15px;
+}
+
+.blog-item-body p {
+    font-size: 14px;
+    text-overflow: ellipsis;
+}
+
+.blog-item-body p a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+    padding-right: 10px;
+    background-image: url("../img/navbar-plus-active.png") ;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #cc003e;
+}
+
+.best-seller-title {
+
+}
+
+.best-seller-body {
+    padding-top: 30px;
+}
+
+.about-details p {
+    padding: 10px 0 10px 0;
+}
+
+.contacts-details h1 {
+    background: url("../img/contacts-phone.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 40px;
+}
+
+.contacts-details h3 {
+    background: url("../img/contacts-email.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 40px;
+}
+
+.product-item-mini {
+    float: left;
+    text-align: center;
+    width: 30%;
+    background: white;
+    padding: 8px 8px 8px 8px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.product-item-mini span {
+    color: red;
+}

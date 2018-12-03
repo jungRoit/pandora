@@ -170,7 +170,7 @@ float: right;
 .product-item {
     float: left;
     text-align: center;
-    width: 185px;
+    width: 18.87%;
     background: white;
     padding: 8px 8px 8px 8px;
     margin-bottom: 25px;
@@ -217,17 +217,21 @@ width: 70%;
 .blogs {
     float: left;
     width: 55%;
+    /* margin-right: 35px; */
 }
 
 .blogs-title {
     background: url("../img/header-top-border.png");
     background-position: bottom;
     background-repeat: no-repeat;
+    padding-bottom: 13px;
+    
 }
 
 .best-seller {
-    width: 45%;
+    width: 40%;
     float: right;
+    /* margin-right: 35px; */
 }
 
 .section-right {
@@ -240,6 +244,26 @@ width: 70%;
     
 }
 
+.blogs-content {
+    
+}
+
+
+.blog-item {
+    padding: 10px 0 10px 0;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+}
 
 
 
+
+.product-item-mini {
+    float: left;
+    text-align: center;
+    width: 30%;
+    background: white;
+    padding: 8px 8px 8px 8px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
