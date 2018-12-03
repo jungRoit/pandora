@@ -178,6 +178,10 @@
     font-weight: normal;
 }
 
+.content-title a {
+    color: #696969;
+}
+
 .content-title span {
     width: 13%;
     float: right;
@@ -334,4 +338,20 @@
 
 .footer {
     background: #333333;
+    color: #bdbdbd;
+}
+
+.navigation-head {
+    padding: 40px 0 15px 0;
+    border-bottom: url("../img/footer-head-border.png");
+    /* background-position: bottom; */
+
+}
+
+.navigation li {
+    list-style-type: none;
+    background: url("../img/footer-nav-list.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 15px;
 }

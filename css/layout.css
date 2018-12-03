@@ -206,7 +206,7 @@ float: right;
 .col3-section {
     width: 68%;
     margin: auto;
-    padding: 40px 0 0 0;
+    padding: 40px 0 40px 0;
 }
 
 .section-left {
@@ -258,6 +258,11 @@ width: 70%;
 
 .footer-top {
     width: 68%;
+    margin: auto;
+}
+
+.navigation {
+    /* width: 20%; */
 }
 
 
