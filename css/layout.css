@@ -267,13 +267,16 @@ width: 70%;
 }
 
 .tweets {
-    width: 35%;
+    width: 30%;
     float: left;
+    font-size: 13px;
 }
 
 .newsletter {
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
 }
+
 
 
 

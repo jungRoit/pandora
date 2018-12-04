@@ -192,12 +192,17 @@
 }
 
 
+.product-item {
+    position: relative;
+}
 
-.product-item div.sale {
-    background: url("../img/product-sale.png");
-    background-repeat: no-repeat;
+.product-item span.sale {
+    /* background: url("../img/product-sale.png");
+    background-repeat: no-repeat; */
     z-index: 10;
-    content: "";
+    position: absolute;
+    top: -8px;
+    left: -8px; 
 }
 
 .products-title a {
@@ -330,12 +335,21 @@
     padding: 8px 8px 8px 8px;
     margin-bottom: 25px;
     margin-right: 25px;
+    position: relative;
 }
 
 .product-item-mini span {
     color: red;
 }
 
+.product-item-mini span.sale {
+    /* background: url("../img/product-sale.png");
+    background-repeat: no-repeat; */
+    z-index: 10;
+    position: absolute;
+    top: -4px;
+    left: -4px; 
+}
 
 .footer {
     background: #333333;
@@ -384,12 +398,13 @@
 }
 
 .newsletter {
-    width: 26%;
+    width: 20%;
     float: left;
+    font-size: 13px;
 }
 
 .newsletter p {
-    font-size: 14px;
+    
     padding-bottom:20px;
 }
 
@@ -399,9 +414,71 @@
 
 .newsletter input {
     padding: 10px 0 8px 0;
-    width: 100%;
+    width: 90%;
     background: url("../img/footer-newsletter-input.png") white;
     background-repeat: no-repeat;
     background-position: 10px;
     padding-left: 30px;
+}
+
+.round-img {
+    padding-top: 10px;
+}
+
+.round-img li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 10px;
+}
+
+.round-img img {
+    width: 2%;
+    height: 2%;
+}
+
+
+.card-img {
+    padding-top: 10px;
+}
+
+.card-img li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 10px;
+}
+
+.card-img img {
+    width: 2%;
+    height: 2%;
+}
+
+.footer-bottom {
+    background: #333333;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    color: #909090;
+}
+
+.footer-bottom li {
+    list-style-type: none;
+    display: inline;
+    padding-top: 20px;
+}
+
+.footer-bottom li:first-child {
+    background: url("../img/planetshine.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 80px;
+    margin-right: 20px;
+}
+
+.footer-bottom li:last-child {
+    background: url("../img/shopify.png"), url("../img/end-border.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    padding-right: 70px;
+    padding-left: 10px;
+    
 }
