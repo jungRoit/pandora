@@ -316,8 +316,7 @@
     background: url("../img/contacts-phone.png");
     background-repeat: no-repeat;
     background-position: left;
-    padding-left: 40px;
-    padding-bottom: 10px;
+    padding: 20px 0 10px 40px;
 }
 
 .contacts-details h3 {
@@ -414,7 +413,7 @@
 
 .newsletter input {
     padding: 10px 0 8px 0;
-    width: 90%;
+    width: 80%;
     background: url("../img/footer-newsletter-input.png") white;
     background-repeat: no-repeat;
     background-position: 10px;
@@ -469,16 +468,18 @@
 .footer-bottom li:first-child {
     background: url("../img/planetshine.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right bottom;
     padding-right: 80px;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 .footer-bottom li:last-child {
     background: url("../img/shopify.png"), url("../img/end-border.png");
     background-repeat: no-repeat, no-repeat;
-    background-position: right, left;
+    background-position: right bottom , left;
     padding-right: 70px;
     padding-left: 10px;
     
 }
+
+

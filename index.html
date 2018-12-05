@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -482,7 +483,7 @@
             <div class="footer-bottom">
                 <div class="footer-end">
                     <ul>
-                        <li>2012 Theme "Pandora" by</li>
+                        <li>© 2012 Theme "Pandora" by</li>
                         <li>Ecommerce software by</li>
                     </ul>
                 </div>
@@ -494,7 +495,10 @@
 
     <script src="slider.js"></script>
     <script>
-        var slide = new Slider(window.innerWidth, 500);
+
+        var slider = document.getElementById('slider');
+        var height = slider.style.height;
+        var slide = new Slider(window.innerWidth, height);
     </script>
 </body>
 
