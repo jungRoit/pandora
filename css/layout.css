@@ -294,6 +294,8 @@ width: 70%;
     margin: auto;
 }
 
-
+.header-hamburger {
+    display: none;
+}
 
 

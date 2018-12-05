@@ -7,8 +7,13 @@
 
     .slider {
         display: none;
-        /* width: 100%;
-        height: 200px; */
+        width: 80%;
+        height: 200px;
+    }
+
+    .slider img {
+        width: 80%;
+        height: 200px;
     }
     .header-wrapper {
         width: 100%;
@@ -31,13 +36,20 @@
     .header-navbar {
         display: none;
     }
-/* 
+
+    .header-hamburger {
+        display: block;
+        float: right;
+        width: 10%;
+        padding: 0 15px 10px 0;
+    }
+
     .slider-text-top {
         display: none;
     }
     .slider-text-bottom {
        display: none;
-    } */
+    }
 
 
     .intro {
@@ -140,7 +152,7 @@
     }
 
     .navigation {
-        width: 100%;
+        width: 90%;
         padding-left: 30px;
     }
 
@@ -151,7 +163,7 @@
 
 
     .newsletter {
-        width: 90%;
+        width: 85%;
         padding-left: 30px;
         padding-bottom: 30px;
     }
@@ -188,6 +200,9 @@
         padding-left: 20px;
     }
 
+    /* .footer {
+        display: none;
+    } */
 
 
 }
