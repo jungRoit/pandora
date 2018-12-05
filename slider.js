@@ -65,7 +65,6 @@ function Slider(width,height) {
         if(index > imagesList.length-1) {
             index = 0;
         }
-        console.log(index);
         var mover = -that.width* (index-1);
 
         var moveImage = setInterval(function(){

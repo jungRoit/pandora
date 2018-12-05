@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id= "container">
         <div class="header">
 
             <div class="header-wrapper">
@@ -97,7 +97,7 @@
                     </div>
 
                 </div>
-                <div class="header-hamburger">
+                <div class="header-hamburger" id="hamburger">
                     <a href="#">
                             <img src="img/hamburger-menu.png" alt="">
                     </a>
@@ -498,12 +498,39 @@
 
     </div>
 
+    <div class="hamburger-navigation" id= "hamburgerNav">
+        <div class="back" id="backBtn">
+                <h1>back</h1>
+            </div>
+            
+    </div>
+
     <script src="slider.js"></script>
     <script>
 
         var slider = document.getElementById('slider');
         var height = slider.style.height;
         var slide = new Slider(window.innerWidth, height);
+
+
+        var hamburger = document.getElementById('hamburger');
+        var backBtn = document.getElementById('backBtn');
+
+        hamburger.addEventListener('click',function() {
+            var container = document.getElementById('container');
+            var hamNav =  document.getElementById('hamburgerNav');
+
+            container.style.display = 'none';
+            hamNav.style.display = 'block';
+        });
+
+        backBtn.addEventListener('click',function() {
+            var container = document.getElementById('container');
+            var hamNav =  document.getElementById('hamburgerNav');
+
+            hamNav.style.display = 'none';
+            container.style.display = 'block';
+        });
     </script>
 </body>
 
