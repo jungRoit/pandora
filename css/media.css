@@ -2,9 +2,15 @@
 
 
 @media screen and (max-width:768px) {
-    .header-wrapper {
+
+    .container {
         width: 100%;
     }
+
+    .header-wrapper {
+        width: 90%;
+    }
+ 
 
 
     .header-login {
@@ -12,33 +18,38 @@
     }
 
     .logo {
-        padding-left: 5px;
+        
+        /* padding-left: 5px; */
         width: 15%;
-        margin-right: 5px;
+        /* margin-right: 5px; */
     }
 
 
     .logo-sub-heading h2{
         font-size: 12px;
+        margin-right: 10px;
     }
 
     .user-details {
-        font-size: 14px;
-        padding-right: 20px;
+        float: right;
+        font-size: 12px;
+        /* padding-right: 20px; */
     }
 
 
     .navbar {
         font-size: 13px;
-        padding-left: 10px;
+        /* padding-left: 10px; */
     }
 
     .search-box {
-        padding-right: 20px;
+        /* display: none; */
+        /* padding-right: 20px; */
     }
 
 
     .slider {
+        display: none;
         width: 50%;
         height: 300px;
     }
@@ -59,23 +70,26 @@
 
 
     .intro {
-        width: 90%;
+        width: 70%;
     }
 
     .intro-img {
         padding-left: 0;
-        width: 30%;
+        width: 90%;
         padding-bottom: 10px;
     }
 
     .intro-text {
-        width: 70%;
+        float: left;
+        width: 80%;
     }
 
     .products {
-        width: 100%;
+        width: 90%;
         padding-left: 30px;
     }
+
+    
 
     .product-item {
         float: left;
@@ -95,7 +109,7 @@
     }
 
     .special-offer {
-        width: 100%;
+        width: 90%;
     }
 
     .offer-box {
@@ -130,6 +144,7 @@
     .best-seller {
         width: 100%;
         padding-top: 20px;
+        /* margin-left: 20px; */
         
     }
 
@@ -167,7 +182,7 @@
     }
 
     .tweets {
-        width: 90%;
+        width: 80%;
         padding: 0 10px 0 30px;
     }
 
@@ -201,6 +216,10 @@
 
     .card-img li img{
         width: 5%;
+    }
+
+    .footer-bottom {
+        width: 90%;
     }
 
     .footer-bottom li {
@@ -251,6 +270,10 @@
         width: 100%;
     }
 
+    .header-top {
+        width: 90%;
+    }
+
 
     .header-login {
         display: none;
@@ -276,6 +299,10 @@
         padding: 0 15px 10px 0;
     }
 
+    .contents {
+        width: 100%;
+    }
+
     .slider-text-top {
         display: none;
     }
@@ -289,22 +316,24 @@
     }
 
     .intro-img {
-        padding-left: 0;
-        width: 100%;
+        margin: auto;
+        /* padding-left: 0; */
+        width: 90%;
         padding-bottom: 10px;
     }
 
     .intro-text {
-        width: 100%;
+        margin: auto;
+        width: 90%;
     }
 
     .products {
-        width: 100%;
+        width: 90%;
     }
 
     .product-item {
         float: none;
-        width: 70%;
+        width: 60%;
         margin: auto;
         margin-bottom: 60px;
     }
@@ -421,6 +450,11 @@
 
     .card-img li img{
         width: 5%;
+    }
+
+
+    .footer-bottom {
+        width: 90%;
     }
 
     .footer-bottom li {
