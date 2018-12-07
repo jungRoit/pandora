@@ -570,6 +570,31 @@
         background-repeat: no-repeat, no-repeat;
     }
 
+    .login {
+        display: none;
+        padding: 5px 0 5px 0;
+    }
+
+    .ham-login-form input {
+        width: 80%;
+        border: 1px solid #d8d8d8;
+        padding: 10px 0 8px 35px;
+    }
+
+    .ham-login-form button {
+        width: 120px;
+        background: #cc003e;
+        color: white;
+        padding: 10px 0 10px 0;
+    }
+
+
+    .ham-menu a li.clicked {
+        color: #cc003e;
+        background: black;
+    }
+
+
 }
 
 

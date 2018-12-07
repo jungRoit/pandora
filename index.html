@@ -510,6 +510,7 @@
                         <input type="text" placeholder="search here">
                     </form>
                 </div>
+               
                 <div class="ham-menu">
                     <div class="ham-menu-title">
                         <h3>User's Details</h3>
@@ -522,9 +523,23 @@
                                     <li>Checkout</li>
                                 </a>
                                 <a href="#">
-                                        <li class="user-info">My Account</li>
+                                        <li id="hamMyAccount" class="user-info">My Account</li>
                                     </a>
                     </ul>
+                </div>
+
+                <div class="login" id="hamLogin">
+                        <div class="ham-menu-title">
+                                <h3>Login</h3>
+                            </div>
+                            <div class="ham-login-form">
+                                    <form action="#" method="get">
+                                        <input type="text" placeholder="E-mail Address">
+                                        <input type="password" placeholder="Password">
+                                        <button>Login</button>
+                                        <button>Continue as Guest</button>
+                                    </form>
+                                </div>
                 </div>
 
                 <div class="ham-menu">
@@ -557,57 +572,7 @@
     </div>
 
     <script src="slider.js"></script>
-    <script>
-        var logginToggle = false;
-
-        var slider = document.getElementById('slider');
-        var height = slider.style.height;
-        var slide = new Slider(window.innerWidth, height);
-
-        var myAccount = document.getElementById('myAccount');
-        var headerLogin = document.getElementById('headerLogin');
-
-        var hamburger = document.getElementById('hamburger');
-        var backBtn = document.getElementById('backBtn');
-
-        hamburger.addEventListener('click',function() {
-            var container = document.getElementById('container');
-            var hamNav =  document.getElementById('hamburgerNav');
-
-            container.style.display = 'none';
-            hamNav.style.display = 'block';
-        });
-
-        backBtn.addEventListener('click',function() {
-            var container = document.getElementById('container');
-            var hamNav =  document.getElementById('hamburgerNav');
-
-            hamNav.style.display = 'none';
-            container.style.display = 'block';
-        });
-
-        myAccount.addEventListener('click',function(){
-            toggleLoginDiv();
-            if(logginToggle) {
-                headerLogin.style.display = 'block';
-                myAccount.classList.add('clicked');
-            }else {
-                headerLogin.style.display = 'none';
-                myAccount.classList.remove('clicked');
-            }
-            
-        })
-
-        function toggleLoginDiv() {
-            if(logginToggle){
-                logginToggle = false;
-            }else {
-                logginToggle =  true;
-            }
-        }
-
-
-    </script>
+    <script src="pandora.js"></script>
 </body>
 
 </html>
