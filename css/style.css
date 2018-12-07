@@ -52,9 +52,20 @@
 }
 
 .user-details li:last-child:hover {
+    background-image: url("../img/user-details-user-active.png"), url("../img/user-details-dropdown-after-click.png");
+    background-position: left, right;;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.user-details li:last-child.clicked {
     background-image: url("../img/user-details-user-active.png"), url("../img/user-details-dropdown-active.png");
     background-position: left, right;;
     background-repeat: no-repeat, no-repeat;
+    color: #cc003e;
+}
+
+.user-details li:last-child.clicked a {
+    color: #cc003e;
 }
 
 .user-details li a{
@@ -67,7 +78,7 @@
 
 /* Header Login */
 .header-login {
-
+    display: none;
 }
 
 .login-text {

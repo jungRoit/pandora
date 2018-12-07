@@ -36,7 +36,7 @@
                                 </a>
                             </li>
                             <li> <a href="#">Checkout</a></li>
-                            <li class="active clearfix">
+                            <li class="active clearfix" id="myAccount">
                                 <a href="#">
                                     My Account
                                 </a>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
 
-                <div class="header-login">
+                <div class="header-login" id="headerLogin">
 
                     <div class="login-box clearfix">
                         <div class="login-text">
@@ -558,11 +558,14 @@
 
     <script src="slider.js"></script>
     <script>
+        var logginToggle = false;
 
         var slider = document.getElementById('slider');
         var height = slider.style.height;
         var slide = new Slider(window.innerWidth, height);
 
+        var myAccount = document.getElementById('myAccount');
+        var headerLogin = document.getElementById('headerLogin');
 
         var hamburger = document.getElementById('hamburger');
         var backBtn = document.getElementById('backBtn');
@@ -582,6 +585,28 @@
             hamNav.style.display = 'none';
             container.style.display = 'block';
         });
+
+        myAccount.addEventListener('click',function(){
+            toggleLoginDiv();
+            if(logginToggle) {
+                headerLogin.style.display = 'block';
+                myAccount.classList.add('clicked');
+            }else {
+                headerLogin.style.display = 'none';
+                myAccount.classList.remove('clicked');
+            }
+            
+        })
+
+        function toggleLoginDiv() {
+            if(logginToggle){
+                logginToggle = false;
+            }else {
+                logginToggle =  true;
+            }
+        }
+
+
     </script>
 </body>
 
