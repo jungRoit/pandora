@@ -99,14 +99,10 @@
         margin-bottom: 60px;
     }
 
-    .content-title {
-        padding-left: 20px;
-        /* padding-right: 10px; */
-    }
+
 
     .content-title span {
         width: 25%;
-        /* font-size: 12px; */
     }
 
     .special-offer {
@@ -135,7 +131,11 @@
     }
 
     .blog-item {
-        padding: 20px 0 20px 0;
+        padding: 20px 0 20px 5px;
+    }
+    
+    .blogs-title{
+        padding-left: 5px;
     }
 
     .blog-item p {
@@ -154,16 +154,26 @@
     }
 
     .product-item-mini {
-        margin-left: 1%;
-        width: 18%;
+        margin-left: 30px;
+        margin-right: 10px;
+        width: 30%;
     }
 
+.section-right {
+    float: left;
+    
+}
 
     .about {
         width: 90%;
         padding-right: 20px;
+       text-align: justify;
     }
 
+    .about-details{
+        text-align: justify;
+    }
+  
     .col3-section {
         width: 100%;
     }
@@ -347,13 +357,13 @@
     }
 
     .content-title {
-        padding-left: 30px;
+        font-size: 14px;
         padding-right: 10px;
     }
 
     .content-title span {
-        width: 25%;
-        font-size: 12px;
+        width: 20%;
+        font-size: 8px;
     }
 
     .special-offer {
@@ -381,7 +391,7 @@
 
     .blogs {
         width: 90%;
-        padding-left: 30px;
+        
     }
 
     .blog-item {
@@ -393,24 +403,29 @@
     }
 
     .best-seller {
-        width: 100%;
+        width: 90%;
         padding-top: 20px;
     }
 
     .best-seller-title {
-        padding-left: 30px;
+        padding: 0;
     }
 
     .product-item-mini {
-        float: left;
-        width: 30%;
+        display: inline-block;
+        margin:0 10px 0 10px;
+        width: 20%;
     }
 
 
     .about {
-        width: 90%;
-        padding-right: 20px;
+        padding-top: 40px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+  
 
     .contacts-details  {
         font-size: 12px;
@@ -438,14 +453,18 @@
 
 
     .newsletter {
-        width: 85%;
+        width: 80%;
         padding-left: 30px;
         padding-bottom: 30px;
     }
 
     .about-us {
-        width: 90%;
+        width: 80%;
         padding-left: 30px;
+    }
+
+    .about-us p {
+        text-align: justify;
     }
 
     .round-img {
@@ -591,7 +610,6 @@
 
     .ham-menu a li.clicked {
         color: #cc003e;
-        background: black;
     }
 
 

@@ -1,4 +1,5 @@
 
+
 .container {
     color: #696969;
 }
@@ -6,6 +7,7 @@
 /* Header Top */
 .logo-sub-heading {
     font-size: 10px;
+    font-family: 'Source Sans Pro extra light';
     color: #e4a5b1;
 }
 
@@ -82,7 +84,7 @@
 }
 
 .login-text {
-    padding: 10px 0 8px 11px;
+    padding: 10px 0 10px 10px;
     float: left;
     font-weight: bold;
 }
@@ -90,7 +92,7 @@
 .login-form input {
     margin-left: 13px;
     border: 1px solid #d8d8d8;
-    padding: 10px 0 8px 11px;
+    padding: 10px 0 10px 10px;
     width: 17.35%;
 }
 
@@ -99,7 +101,7 @@
     margin-left: 13px;
     background: #cc003e;
     color: white;
-    padding: 10px 18px 8px 11px;
+    padding: 10px 10px 10px 10px;
     cursor: pointer;
 }
 
@@ -144,7 +146,7 @@
 .search-box input {
     margin-left: 13px;
     border: 1px solid #d8d8d8;
-    padding: 10px 0 8px 35px;
+    padding: 10px 0 10px 35px;
     width: 135px;
     background: url("../img/search-icon.png") white;
     background-repeat: no-repeat;
@@ -163,6 +165,7 @@
 }
 
 .slider-text-bottom p {
+    text-align: justify;
     text-overflow: ellipsis;
 }
 
@@ -188,6 +191,7 @@
 
 .content-title h2 {
     font-weight: normal;
+    font-family: 'source sans pro light';
 }
 
 .content-title a {
@@ -206,6 +210,11 @@
 
 .product-item {
     position: relative;
+}
+
+.product-item a {
+    text-decoration: none;
+
 }
 
 .product-item span.sale {
@@ -250,7 +259,17 @@
 .offer-title {
     color: white;
     font-weight: normal;
-    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.offer-box a {
+    text-decoration: none;
+}
+
+.offer-box a span {
+    text-decoration: none;
+    color: white;
+
 }
 
 .offer-box.green {
@@ -297,6 +316,7 @@
 }
 
 .blog-item-body p {
+    text-align: justify;
     font-size: 14px;
     text-overflow: ellipsis;
 }
@@ -321,6 +341,7 @@
 }
 
 .about-details p {
+    text-align: justify;
     padding: 10px 0 10px 0;
 }
 
@@ -343,10 +364,15 @@
     text-align: center;
     width: 30%;
     background: white;
-    padding: 8px 8px 8px 8px;
+    padding: 10px 10px 10px 10px;
     margin-bottom: 25px;
     margin-right: 25px;
     position: relative;
+}
+
+.product-item-mini a {
+    text-decoration: none;
+    
 }
 
 .product-item-mini span {
@@ -386,10 +412,10 @@
     padding-left: 15px;
 }
 
-.tweets {
-    /* padding-left: 20px; */
+.navigation li a{
+   text-decoration: none;
+   color: #bdbdbd;
 }
-
 
 .footer-head {
     padding: 40px 0 15px 0;
@@ -424,7 +450,7 @@
 }
 
 .newsletter input {
-    padding: 10px 0 8px 0;
+    padding: 10px 0 10px 0;
     width: 80%;
     background: url("../img/footer-newsletter-input.png") white;
     background-repeat: no-repeat;
