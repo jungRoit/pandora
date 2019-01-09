@@ -309,8 +309,8 @@
     .header-hamburger {
         display: block;
         float: right;
-        width: 10%;
-        padding: 0 15px 10px 0;
+        width: 20%;
+        
     }
 
     .header-hamburger button {
@@ -431,6 +431,9 @@
         font-size: 12px;
     }
 
+    .contacts-details h1 {
+        font-size: 14px;
+    }
 
 
     .footer-top {
