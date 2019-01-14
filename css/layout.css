@@ -1,14 +1,10 @@
 .container {
-    max-width: 100%;
+    width: 100%;
     background-image: url("../img/background.png");
-
-}
-.header {
 
 }
 
 .header-wrapper {
-    
     width: 980px;
     margin: 0 auto;
 
@@ -206,9 +202,10 @@ float: right;
 }
 
 .offer-title {
+    font-family: 'Source Sans Pro', sans-serif;
     width: 170px;
     margin: auto;
-    padding-bottom: 15px;
+    font-size: 82px;
     border-bottom: 1px dotted #cccccc;
 }
 

@@ -34,20 +34,12 @@
     .user-details {
         float: right;
         font-size: 12px;
-        /* padding-right: 20px; */
     }
 
 
     .navbar {
         font-size: 13px;
-        /* padding-left: 10px; */
     }
-
-    .search-box {
-        /* display: none; */
-        /* padding-right: 20px; */
-    }
-
 
     .slider {
         display: none;
@@ -62,7 +54,7 @@
         height: 300px;
     }
 
-        .slider-text-top {
+    .slider-text-top {
         display: none;
     }
     .slider-text-bottom {
@@ -90,16 +82,11 @@
         padding-left: 30px;
     }
 
-    
-
     .product-item {
         float: left;
         width: 40%;
-        /* margin-right: 30px; */
         margin-bottom: 60px;
     }
-
-
 
     .content-title span {
         width: 25%;
@@ -124,7 +111,6 @@
         width: 100%;
     }
 
-
     .blogs {
         width: 90%;
         padding-left: 30px;
@@ -145,8 +131,6 @@
     .best-seller {
         width: 100%;
         padding-top: 20px;
-        /* margin-left: 20px; */
-        
     }
 
     .best-seller-title {
@@ -205,9 +189,8 @@
     }
 
     .about-us {
-        
         font-size: 12px;
-        width:60%;
+        width:90%;
         padding-left: 30px;
     }
 
