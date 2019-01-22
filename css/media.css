@@ -293,7 +293,11 @@
         display: block;
         float: right;
         width: 20%;
-        
+    }
+
+    .header-hamburger img {
+        width: 60%;
+        height: 60%;
     }
 
     .header-hamburger button {
@@ -314,6 +318,7 @@
 
     .intro {
         width: 90%;
+        padding-top: 0;
     }
 
     .intro-img {
