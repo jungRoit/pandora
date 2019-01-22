@@ -317,20 +317,24 @@
 
 
     .intro {
+        
         width: 90%;
         padding-top: 0;
     }
+    .contents {
+       width: 100%;
+    }
 
     .intro-img {
-        margin: auto;
+        text-align: center;
         /* padding-left: 0; */
-        width: 90%;
+        width: 100%;
         padding-bottom: 10px;
     }
 
     .intro-text {
-        margin: auto;
-        width: 90%;
+        text-align: center;
+        width: 100%;
     }
 
     .products {
