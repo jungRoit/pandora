@@ -1,4 +1,4 @@
-var logginToggle = false;
+var logginToggle = true;
 var hamLoginToggle = false;
 
         var slider = document.getElementById('slider');
@@ -70,6 +70,7 @@ var hamLoginToggle = false;
             }else {
                 hamLogin.style.display = 'none';
                 hamMyAccount.classList.remove('clicked');
+                
             }
             
         })

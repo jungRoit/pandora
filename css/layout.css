@@ -168,11 +168,12 @@ float: right;
 
 .products-list {
     margin-top: 34px;
+    text-align: center;
 }
 
 
 .product-item {
-    float: left;
+    display: inline-block;
     text-align: center;
     width: 18.87%;
     background: white;
@@ -205,7 +206,7 @@ float: right;
     font-family: 'Source Sans Pro', sans-serif;
     width: 170px;
     margin: auto;
-    font-size: 82px;
+    font-size: 20px;
     border-bottom: 1px dotted #cccccc;
 }
 

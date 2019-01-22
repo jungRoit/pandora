@@ -79,9 +79,9 @@
 }
 
 /* Header Login */
-.header-login {
+/* .header-login {
     display: none;
-}
+} */
 
 .login-text {
     padding: 10px 0 10px 10px;
@@ -231,7 +231,7 @@
 }
 
 .products-list {
-    text-align: center;
+    text-align: cenrter;
 }
 
 .product-item h3{
